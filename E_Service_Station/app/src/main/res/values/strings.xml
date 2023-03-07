@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">E_Service_Station</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string-array name="city">
+        <item>Select City</item>
+        <item>Banglore</item>
+        <item>Mumbai</item>
+        <item>Gadag</item>
+        <item>Hubli</item>
+        <item>pune</item>
+        <item>Delhi</item>
+    </string-array>
+</resources>

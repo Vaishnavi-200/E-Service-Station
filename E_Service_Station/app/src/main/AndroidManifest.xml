@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.hp.e_service_station" >
+<uses-permission android:name="android.permission.INTERNET"></uses-permission>
+    <uses-permission android:name="android.permission.CALL_PHONE"></uses-permission>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".Flash_page"
+            android:theme="@style/Theme.AppCompat.NoActionBar"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Login_page"></activity>
+        <activity android:name=".Home_page"></activity>
+        <activity android:name=".Signup_page"></activity>
+        <activity android:name=".MainActivity"></activity>
+        <activity android:name=".VSS_page"></activity>
+        <activity android:name=".VCS_page"></activity>
+        <activity android:name=".Feedback_page"></activity>
+        <activity android:name=".Aboutapp_page"></activity>
+        <activity android:name=".Profile_page"></activity>
+        <activity android:name=".Helpus_page"></activity>
+        <activity android:name=".Vehicle_service_station_details"></activity>
+        <activity android:name=".Vehicle_charging_station_details"></activity>
+        <activity android:name=".Direction_vcs_page"></activity>
+        <activity android:name=".Direction_vss_page"></activity>
+        <activity android:name=".Contactus_page"></activity>
+
+    </application>
+
+</manifest>

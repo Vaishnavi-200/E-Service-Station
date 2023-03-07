@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@drawable/img"
+    android:orientation="vertical">
+
+
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        card_view:cardCornerRadius="35dp"
+        android:layout_margin="20dp"
+        android:id="@+id/cv"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#ffffff">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="UPDATE PROFILE"
+                android:textColor="#299438"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:id="@+id/profile"/>
+
+            <EditText
+                android:layout_width="312dp"
+                android:layout_height="wrap_content"
+                android:hint="First Name:"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="10dp"
+                android:id="@+id/et_first"/>
+
+            <EditText
+                android:layout_width="312dp"
+                android:layout_height="wrap_content"
+                android:hint="Last Name:"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="10dp"
+                android:id="@+id/et1_last"/>
+
+            <EditText
+                android:layout_width="312dp"
+                android:layout_height="wrap_content"
+                android:hint="Mobile No.:"
+                android:maxLength="10"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="10dp"
+                android:id="@+id/et2_mno"/>
+
+            <EditText
+                android:layout_width="312dp"
+                android:layout_height="wrap_content"
+                android:hint="Email Id:"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="10dp"
+                android:id="@+id/et3_email"/>
+
+            <EditText
+                android:layout_width="312dp"
+                android:layout_height="wrap_content"
+                android:hint="City:"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="10dp"
+                android:id="@+id/et4_city"/>
+
+            <EditText
+                android:layout_width="312dp"
+                android:layout_height="wrap_content"
+                android:hint="Postal Address:"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="10dp"
+                android:id="@+id/et5_address"/>
+
+            <EditText
+                android:layout_width="312dp"
+                android:layout_height="wrap_content"
+                android:hint="Password:"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="10dp"
+                android:id="@+id/et6_pass"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="UPDATE"
+                android:background="#299438"
+                android:layout_marginTop="30dp"
+                android:layout_gravity="center"
+                android:id="@+id/btn_update"
+                android:textColor="#FFFFFF"/>
+
+
+
+
+
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+</LinearLayout>
+
+
+
+
+
+
+
+
+
